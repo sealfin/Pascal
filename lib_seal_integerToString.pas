@@ -19,14 +19,14 @@ begin
   i := 1;
   if p_integer > 0 then begin
       if p_explicitSign then begin
-        s := s + '+';
+        s := '+';
         i := 2
       end
     end
   else
     if p_integer < 0 then begin
       p_integer := -p_integer;
-      s := s + '-';
+      s := '-';
       i := 2
     end;
   repeat
