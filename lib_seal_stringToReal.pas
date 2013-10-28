@@ -89,7 +89,7 @@ begin
       end
     end
   else
-    if not f_private( i_part_begin, i_part_end, i ) then
+    if not f_private( i_part_begin, length( p_string ), i ) then
       goto l_END;
   p_real := p_real + i;
   if is_negative then
